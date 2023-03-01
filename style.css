@@ -1,0 +1,111 @@
+/* Add your custom CSS here */
+
+.container {
+    margin: 0px;
+    padding: 0px;
+    
+  }
+
+  img {
+    margin-right: 25px;
+  }
+
+  #foto-perfil {
+    margin-left: 50px;
+  }
+  
+  section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #home {
+    background-color: rgb(87, 87, 93);
+    height: 100vh;
+    width: auto;
+  }
+  
+  #about {
+    background-color: #c62472;
+    width: 100vw;
+    align-items: center;
+  }
+  
+  #experience {
+    background-color: #f3b93e;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  #contact {
+    background-color: #3eb23e;
+    width: 100dvw;
+  }
+  
+  nav {
+    margin: 0px;
+    padding : 0px;
+  }
+  
+  nav .navbar-nav .nav-link {
+    color: #fff;
+    position: sticky;
+  }
+  
+  nav .navbar-nav .nav-link:hover,
+  nav .navbar-nav .nav-link:focus {
+    color: #fff;
+    background-color: #6c757d;
+  }
+  
+  h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  #education {
+    width: 100vw;
+    height: 100vh;
+  display: flex;
+  background-color: aqua;
+}
+
+#education .col-lg-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+#education .col-lg-8 {
+  padding-left: 50px;
+}
+
+#education ol {
+  list-style: none;
+  padding: 0;
+}
+
+#education li {
+  margin-bottom: 10px;
+}
+
+#education h4 {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.social-media-logos{
+    margin: 25px;
+}
